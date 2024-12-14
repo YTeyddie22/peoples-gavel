@@ -41,7 +41,9 @@ const Navbar = () => {
                             Sign up
                         </button>
                     </Link>
-                    <button className='border-2 border-[#01C909] bg-[#01C909] py-1 px-4 text-white rounded-xl'>Login</button>
+                    <Link href="/auth/login">
+                        <button className='border-2 border-[#01C909] bg-[#01C909] py-1 px-4 text-white rounded-xl'>Login</button>
+                    </Link>
                 </div>
 
                 {/* for small screen */}
